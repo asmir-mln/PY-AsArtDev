@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}PY-AsArtDev{% endblock %}</title>
+    <link rel="stylesheet" href="/css/py.css">
+</head>
+<body>
+    <nav>
+        <a href="/py">Accueil</a>
+        <a href="/py/the-lion">The Lion</a>
+        <a href="/py/accessibilite">Accessibilité</a>
+        <a href="/py/confidentiel">Confidentiel</a>
+    </nav>
+    <main>
+        {% block body %}{% endblock %}
+    </main>
+    <script src="/js/py.js"></script>
+</body>
+</html>
